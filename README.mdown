@@ -1,0 +1,15 @@
+# Remote Tris
+
+Questo è il famoso gioco del tris implementato per la rete con una connessione TCP di tipo client-server.
+Programmato in C++ OOP con l'utilizzo delle librerie grafiche SDL.
+
+## Installation
+
+ * Scaricate l'archivio da github o dal [Sito Ufficiale](http://ideneal.altervista.org/)
+ * Nel caso non avete installato le librerie SDL date il seguente comando : sudo apt-get install libsdl1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev
+ * Per compilare date il comando : make
+
+## Usage
+
+ * Per avviare il server date il comando : ./server <port>
+ * Per avviare il client date il comando : ./client <address> <port>
